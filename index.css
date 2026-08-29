@@ -1264,6 +1264,7 @@ footer a {
 
     .hero-content {
         margin-left: 7%;
+        padding-bottom: 70px;
     }
 
     .section-heading {
@@ -1314,15 +1315,14 @@ footer a {
 
     .hero-content {
         width: 88%;
-
         margin-left: 6%;
-
-        padding-top: 40px;
+        padding-top: 0px;
+        padding-bottom: 70px;
     }
 
     .hero h1 {
         font-size: 65px;
-        letter-spacing: -2px;
+        letter-spacing: -1px;
     }
 
     .hero h1 span {
