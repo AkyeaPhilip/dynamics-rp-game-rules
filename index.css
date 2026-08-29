@@ -208,7 +208,6 @@ section {
     background-size: cover;
     background-position: center;
     filter: blur(3px);
-    /* transform: scale(1.05); */
     transform: scale(1.08);
     animation: backgroundMotion 2s ease-in-out infinite alternate;
     animation: heroZoom 2s ease-in-out infinite alternate;
@@ -366,7 +365,7 @@ section {
 
     margin-left: 9%;
 
-    padding-top: 70px;
+    padding-top: 30px;
 }
 
 
@@ -1322,8 +1321,7 @@ footer a {
     }
 
     .hero h1 {
-        font-size: 70px;
-
+        font-size: 65px;
         letter-spacing: -2px;
     }
 
