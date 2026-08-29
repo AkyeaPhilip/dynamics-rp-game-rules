@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DRP — Welcome to the Game</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="drp.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header" id="header">
+
+        <a href="#home" class="logo">
+        <!-- D<span>R</span>P -->
+        <img src="images/DRP logo.png" alt="DRP Logo">
+    </a>
+
+        <nav class="nav" id="nav">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#rules" class="nav-link">Game Rules</a>
+            <a href="#about" class="nav-link">About Us</a>
+        </nav>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+    </header>
+
+
+    <main>
+
+        <!-- ================= HERO ================= -->
+
+        <section class="hero" id="home">
+
+            <div class="hero-bg"></div>
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-grid"></div>
+
+            <div class="particles" id="particles"></div>
+
+            <div class="hero-content">
+
+                <div class="hero-tag">
+                    <span></span>
+                    THE ULTIMATE EXPERIENCE
+                </div>
+
+                <h1>
+                    WELCOME To
+                    <span>DYNAMICS RP</span>
+                </h1>
+
+                <p>
+                    Step into the streets. Master the rules.
+                    Own the experience.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#features" class="play-btn">
+                        <span>PLAY NOW</span>
+                        <i>→</i>
+                    </a>
+
+                    <a href="#rules" class="explore-btn">
+                        EXPLORE RULES
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-bottom">
+
+                <div class="scroll-indicator">
+                    <span class="mouse"></span>
+                    <span>SCROLL TO EXPLORE</span>
+                </div>
+
+                <div class="hero-line"></div>
+
+                <div class="hero-number">
+                    <strong>01</strong>
+                    <span>/ 04</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FEATURES ================= -->
+
+        <section class="features section" id="features">
+
+            <div class="section-heading">
+
+                <div>
+                    <span class="eyebrow">WHY DRP</span>
+
+                    <h2>
+                        BUILT FOR
+                        <span>THE STREETS</span>
+                    </h2>
+                </div>
+
+                <p>
+                    Everything you need for an immersive gaming
+                    experience designed around skill, strategy,
+                    and the streets.
+                </p>
+
+            </div>
+
+
+            <div class="feature-grid">
+
+                <article class="feature-card">
+
+                    <div class="feature-number">01</div>
+
+                    <div class="feature-icon">◈</div>
+
+                    <h3>REALISTIC WORLD</h3>
+
+                    <p>
+                        Experience a world designed to feel alive,
+                        dynamic and unpredictable.
+                    </p>
+
+                </article>
+
+
+                <article class="feature-card">
+
+                    <div class="feature-number">02</div>
+
+                    <div class="feature-icon">◆</div>
+
+                    <h3>MASTER THE RULES</h3>
+
+                    <p>
+                        Learn the rules, understand the streets
+                        and become better with every decision.
+                    </p>
+
+                </article>
+
+
+                <article class="feature-card">
+
+                    <div class="feature-number">03</div>
+
+                    <div class="feature-icon">✦</div>
+
+                    <h3>PURE EXPERIENCE</h3>
+
+                    <p>
+                        A premium gaming experience built
+                        around immersion and competition.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= GAME RULES ================= -->
+
+        <section class="rules section" id="rules">
+            <div class="rules-header">
+                <span class="eyebrow">KNOW THE GAME</span>
+                <h2>
+                    WELCOME TO DRP
+                    <span>GAME RULES</span>
+                </h2>
+                <p>
+                    Know the rules. Make the right decisions.
+                    Every move matters.
+                </p>
+            </div>
+            <div class="rules-wrapper">
+
+                <!-- CATEGORY -->
+                <aside class="rules-sidebar">
+                    <button class="rule-category active" data-category="street">
+                        <span>01</span>
+                        SERVER RULES & RP GUIDE
+                    </button>
+                    <button class="rule-category" data-category="traffic">
+                        <span>02</span>
+                        GREEN ZONE RULES
+                    </button>
+                    <button class="rule-category" data-category="safety">
+                        <span>03</span>
+                        TRAFFIC VIOLATIONS & FINES
+                    </button>
+                    <button class="rule-category" data-category="general">
+                        <span>04</span>
+                        STATE FACTION LEADERSHIP RULES
+                    </button>
+                    <button class="rule-category" data-category="general-1">
+                        <span>05</span>
+                        OFFICIAL FACTION RULES
+                    </button>
+                    <button class="rule-category" data-category="general-2">
+                        <span>06</span>
+                        ORGANIZED CRIME GROUP (OCG) LEADERSHIP RULES
+                    </button>
+                    <button class="rule-category" data-category="general-3">
+                        <span>07</span>
+                        ORGANIZED CRIME FACTION RULES
+                    </button>
+                </aside>
+
+                <!-- RULE CONTENT -->
+
+                <div class="rule-display">
+
+                    <div class="rule-top">
+
+                        <span id="ruleCategory">
+                            ROLEPLAY TERMS
+                        </span>
+
+                        <span id="ruleCounter">
+                            01 / 10
+                        </span>
+
+                    </div>
+
+
+                    <div class="rule-content">
+
+                        <span class="rule-label">
+                            <!-- RULE <b>01</b> -->
+                        </span>
+
+                        <h3 id="ruleTitle">
+                            RESPECT THE STREETS
+                        </h3>
+
+                        <p id="ruleDescription">
+                            Every street has its own rhythm.
+                            Respect the environment, understand
+                            your surroundings and make decisions
+                            that keep the game moving.
+                        </p>
+
+                    </div>
+
+
+                    <div class="rule-controls">
+
+                        <button id="prevRule" aria-label="Previous rule">
+                            ←
+                        </button>
+
+                        <div class="rule-progress">
+                            <span id="progressBar"></span>
+                        </div>
+
+                        <button id="nextRule" aria-label="Next rule">
+                            →
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section class="about section" id="about">
+
+            <div class="about-content">
+
+                <span class="eyebrow">THE WORLD OF DRP</span>
+
+                <h2>
+                    MORE THAN
+                    <span>A GAME.</span>
+                </h2>
+
+                <p>
+                    DRP is built for players who want more than
+                    ordinary gameplay. Explore the streets,
+                    understand the world and create your own
+                    story.
+                </p>
+
+                <a href="#home" class="gold-link">
+                    ENTER DRP <span>→</span>
+                </a>
+
+            </div>
+
+            <div class="about-decoration">
+                <span>DRP</span>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-logo">
+            <span>D</span>RP
+        </div>
+
+        <p>
+            © 2026 DRP. All rights reserved.
+        </p>
+
+        <a href="#home">
+            BACK TO TOP ↑
+        </a>
+
+    </footer>
+
+
+    <script src="drp.js"></script>
+
+</body>
+</html>
